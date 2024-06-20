@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <style>
+      body {
+        overflow-x: hidden;
+      }
+    </style>
+  </head>
+  <body class="bg-dark">
+    <div class="container-fluid text-light" style="min-height: 100vh">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Tour Gate</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="btn btn-outline-primary mx-2" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="btn btn-outline-primary mx-2" href="#keterangan">Keterangan</a>
+              </li>
+              <li class="nav-item">
+                <a class="btn btn-outline-primary mx-2" href="#jadwal">Jadwal</a>
+              </li>
+              <li class="nav-item">
+                <a class="btn btn-outline-primary mx-2" href="#kontak">Kontak</a>
+              </li>
+            </ul>
+            <form class="d-flex ms-auto" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-primary" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- Welcome -->
+      <div
+        class="row justify-content-center align-items-center text-center mt-3"
+        style="min-height: 80vh"
+      >
+        <div class="col-12 col-md-6 mb-3 mb-md-0">
+          <h2>
+            Selamat Datang Di
+            <span style="color: rgb(0, 8, 255)">Web Hirzi Dian Trip</span>
+          </h2>
+          <p>
+            Di web ini, temukan segudang informasi menarik tentang gunung-gunung
+            di Indonesia, dari Sabang sampai Merauke. Dengan pengalaman lebih
+            dari 99+ pendakian, Trip Hirzi Dian siap membawa Anda menjelajahi
+            pesona alam Indonesia yang memukau. Bergabunglah dengan kami dan
+            nikmati petualangan tak terlupakan di setiap puncak gunung yang
+            menanti untuk Anda taklukkan!
+          </p>
+        </div>
+        <div class="col-12 col-md-6">
+          <img src="/img/my-removebg-preview.png" class="img-fluid" alt="" />
+        </div>
+      </div>
+      <!-- Welcome End -->
+
+      <!-- Carousel -->
+      <h2 id="keterangan" class="text-center mt-4">Keterangan</h2>
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide mt-4"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="img/Gunung Arjuno, Jawa Timur.jpeg"
+              class="d-block w-100 img-fluid"
+              alt="GN.Sumbing"
+              style="height: 500px"/>
+            <div class="carousel-caption d-md-block">
+              <h5>Gunung Arjuno</h5>
+              <a href="gn.arjuno/" class="btn btn-success d-block">Selengkapnya</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="img/Gunung Kerinci (i).jpeg"
+              class="d-block w-100 img-fluid"
+              alt="GN.Kerinci"
+              style="height: 500px"/>
+            <div class="carousel-caption d-md-block">
+              <h5>Gunung Kerinci</h5>
+              <a href="gn.kerinci/" class="btn btn-success d-block"
+                >Selengkapnya</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="img/Gunung Prau Indah Sekali.jpeg"
+              class="d-block w-100 img-fluid"
+              alt="GN.Prau"
+              style="height: 500px"/>
+            <div class="carousel-caption d-md-block">
+              <h5>Gunung Prau</h5>
+              <a href="gn.prau/" class="btn btn-success d-block">Selengkapnya</a>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- Carousel End -->
+
+      <!-- Cards -->
+      <div id="jadwal" class="row text-center align-items-center mt-4">
+        <div class="col-12">
+          <h2 class="mt-2">Jadwal</h2>
+        </div>
+      </div>
+      <div class="row text-dark mt-4">
+        <div class="col-sm-4 g-2">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title text-center">Gunung Arjuno</h5>
+              <p class="card-text">
+                Keberangkatan pada tanggal 12-25 juni 2024.
+              </p>
+              <a href="harga.arjuno/" class="btn btn-dark d-block">Selengkapnya</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 g-2">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title text-center">Gunung Kerinci</h5>
+              <p class="card-text">
+                Keberangkatan pada tanggal 1-24  November 2024.
+              </p>
+              <a href="harga.kerinci/" class="btn btn-dark d-block">Selengkapnya</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 g-2">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title text-center">Gunung Prau</h5>
+              <p class="card-text">
+                Keberangkatan pada tanggal 2-28 Desember 2024.
+              </p>
+              <a href="harga_prau/" class="btn btn-dark d-block">Selengkapnya</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Cards End -->
+       <hr class="mt-4">
+    </div>
+    
+    <footer id="kontak" class="footer bg-dark text-light py-4 mt-2">
+        <div class="container">
+            <div class="row text-center text-md-start">
+                <div class="col-12 col-md-4 mb-3">
+                    <h5>Kontak</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="https://wa.me/087875976631" target="_blank" class="text-light text-decoration-none"> WhatsApp : 0878-7597-6631</a>
+                        </li>
+                        <li class="mt-2">
+                            <a href="https://www.instagram.com/hirzi.da/?hl=id" target="_blank" class="text-light text-decoration-none">Instagram : @hirzi.da</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-4 mb-3">
+                    <h5>Tentang Kami</h5>
+                    <p>Bersama Hirzi Dian, rasakan sensasi mendaki puncak-puncak tertinggi Indonesia.Hirzi tidak hanya membawa Anda menjelajahi keindahan alam, tetapi juga menelusuri kekayaan budaya dan cerita-cerita menarik dari setiap tempat yang dikunjungi.</p>
+                </div>
+                <div class="col-12 col-md-4 mb-3">
+                    <h5>Pesan</h5>
+                    <form>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Berikan Pendapat Anda </label>
+                            <input type="email" class="form-control" id="email" placeholder="Pesan">
+                        </div>
+                        <button type="submit" class="btn btn-outline-primary">Kirim</button>
+                    </form>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col text-center">
+                    <p class="mb-0">&copy; 2024 Tour Gate.</p>
+                </div>
+            </div>
+        </div>
+</footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
